@@ -1,5 +1,6 @@
 # SMTP-Server-Management
-a server-client email system using python alllowing clients to send emails to gmail accounts 
+a server-client email system using python alllowing clients to send emails to gmail accounts  
+
 The main functionalities this project aims to perform are: 
 •	Implement the ability to send emails using the server-client architecture.
 •	Develop a mail server application capable of receiving requests from clients
