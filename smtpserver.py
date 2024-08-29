@@ -32,7 +32,6 @@ def send_email(to_email, subject, message, attachment=None):
         server.login(SMTP_USERNAME, SMTP_PASSWORD)
         server.send_message(msg)
 
-
 def handle_send_email(data):
     to_email = data.get('to_email')
     subject = data.get('subject')
@@ -41,7 +40,6 @@ def handle_send_email(data):
 
     send_email(to_email, subject, message, attachment)
     return 'Email sent successfully'
-
 
 
 def handle_client(client_socket, addr):
